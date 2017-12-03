@@ -5,8 +5,9 @@ php:
   # - nightly
 services:
   - mysql
-before_script:
+script:
   - mysql -e 'CREATE DATABASE gatherling DEFAULT CHARACTER SET latin1;'
   - cp config.php.travisci config.php
   - php admin/db-upgrade.php
   - php util/updateDefaultFormats.php
+  - phpunit tests/*.php
