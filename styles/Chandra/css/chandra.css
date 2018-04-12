@@ -1,0 +1,197 @@
+span.notallowed {
+    font-size: larger;
+    color: red;
+}
+table.scoreboard span {
+    border-bottom: 1px dotted #E25912;
+}
+table.scoreboard tr.odd {
+    background-color: #353535;
+}
+table.scoreboard tr.even {
+    background-color: #262626;
+}
+table.scoreboard tr.cutoff {
+    border-bottom: 3px double #E25912;
+}
+table.bracket {
+    border: 1px solid Black;
+    color: #CCCCCC;
+    background-color: #353535;
+}
+table.bracket td.brackettext {
+    border: 1px solid Black;
+    background-color: #D45E28;
+    color: Black;
+}
+table.bracket td.odd {
+    background-color: #262626;
+}
+table.bracket td.even {
+    background-color: #353535;
+}
+.series {
+    background: #262626;
+    border-top: 1px solid #4F4F4F;
+}
+a.create_deck_link {
+    color: #D28950;
+}
+
+/* autocard */
+.crop {
+    -webkit-box-shadow: #D45E28 0 2px 30px;
+    -moz-box-shadow: #D45E28 0 2px 30px;
+    box-shadow: #D45E28 0 2px 30px;
+}
+.inputbox {
+    border: 1px solid Black;
+    color: #CCCCCC;
+    background-color: #353535;
+}
+.inputbox:hover {
+    border-color: #D45E28;
+}
+.inputbox:focus {
+    border: 1px solid rgb(234, 234, 234);
+    border-color: #D45E28;
+}
+.inputbox:disabled {
+    border: 1px solid Black;
+    background-color: #161616;
+    color: black;
+}
+.inputbutton {
+    border: 1px solid Black;
+    color: #CCCCCC;
+    background-color: #262626;
+    -webkit-box-shadow: #000 0 2px 5px;
+    -moz-box-shadow: #000 0 2px 5px;
+    box-shadow: #000 0 2px 5px;
+}
+.inputbutton:hover {
+    border-color: #D45E28;
+    background-color: #353535;
+    color: #D45E28;
+    -webkit-box-shadow: #D45E28 0 2px 5px;
+    -moz-box-shadow: #D45E28 0 2px 5px;
+    box-shadow: #D45E28 0 2px 5px;
+}
+.inputbutton:focus {
+    border: 1px solid #000;
+    background-color: #161616;
+    color: #000;
+    -webkit-box-shadow: #000 0 0px 0px;
+    -moz-box-shadow: #000 0 0px 0px;
+    box-shadow: #000 0 0px 0px;
+}
+.inputbutton:disabled {
+    border: 1px solid #000;
+    background-color: #161616;
+    color: #000;
+    -webkit-box-shadow: #000 0 0px 0px;
+    -moz-box-shadow: #000 0 0px 0px;
+    box-shadow: #000 0 0px 0px;
+}
+/* Some formating stuff for the search form and results table */
+#table-decksearch {
+    color: #CCCCCC;
+    background-color: #353535;
+    color: #333;
+}
+#table-decksearch td, #table-decksearch th {
+    border-top-color: #454545;
+    border-bottom: 1px solid #454545;
+    color: #CCCCCC;
+}
+#table-decksearch th {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em ;
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+}
+.ds_inputbox {
+    border: 1px solid Black;
+    color: #CCCCCC;
+    background-color: #353535;
+}
+.ds_left {
+    background-color: #353535;
+}
+.ds_right {
+    background-color: #353535;
+}
+.ds_input {
+    border: 1px solid Black;
+    color: #CCCCCC;
+    background-color: #353535;
+}
+.ds_input:hover {
+    border-color: #D45E28;
+}
+.ds_input:focus {
+    border: 1px solid rgb(234, 234, 234);
+    border-color: #D45E28;
+}
+.ds_input:disabled {
+    border: 1px solid Black;
+    background-color: #161616;
+    color: black;
+}
+.ds_submit {
+    color: #CCCCCC;
+    background-color: #262626;
+    -webkit-box-shadow: #000 0 2px 5px;
+    -moz-box-shadow: #000 0 2px 5px;
+    box-shadow: #000 0 2px 5px;
+}
+.ds_submit:hover {
+    border-color: #D45E28;
+    background-color: #353535;
+    color: #D45E28;
+    -webkit-box-shadow: #D45E28 0 2px 5px;
+    -moz-box-shadow: #D45E28 0 2px 5px;
+    box-shadow: #D45E28 0 2px 5px;
+}
+.ds_submit:focus {
+    border: 1px solid #000;
+    background-color: #161616;
+    color: #000;
+    -webkit-box-shadow: #000 0 0px 0px;
+    -moz-box-shadow: #000 0 0px 0px;
+    box-shadow: #000 0 0px 0px;
+}
+.ds_submit:disabled {
+    border: 1px solid #000;
+    background-color: #161616;
+    color: #000;
+    -webkit-box-shadow: #000 0 0px 0px;
+    -moz-box-shadow: #000 0 0px 0px;
+    box-shadow: #000 0 0px 0px;
+}
+.ds_results {
+    color: #fff;
+}
+.ds_checkbox {
+    background: #262626;
+}
+.ds_checkbox:hover {
+    border-color: #D45E28;
+}
+#ds_select {
+    border: 1px solid Black;
+    color: #CCCCCC;
+    background-color: #353535;
+}
+#ds_select:hover {
+    border-color: #D45E28;
+}
+.banner_alert {
+    background: black;
+    border: red;
+    border-style: dotted;
+}
+
+#header_bar {
+    background-image: url(../images/header_background.jpg);
+    background-repeat: repeat-x;
+}

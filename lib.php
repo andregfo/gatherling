@@ -60,6 +60,7 @@ function print_header($title, $js = null, $extra_head_content = '')
     echo "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n";
     echo "    <meta name=\"google-site-verification\" content=\"VWE-XX0CgPTHYgUqJ6t13N75y-p_Q9dgtqXikM3EsBo\" />\n";
     echo "    <title>{$CONFIG['site_name']} | {$title}</title>\n";
+    echo '    <link rel="stylesheet" type="text/css" media="all" href="'.theme_file('css/layout.css')."\" />\n";
     echo '    <link rel="stylesheet" type="text/css" media="all" href="'.theme_file('css/stylesheet.css')."\" />\n";
     echo "     <script src=\"//code.jquery.com/jquery-latest.min.js\"></script>\n";
 
